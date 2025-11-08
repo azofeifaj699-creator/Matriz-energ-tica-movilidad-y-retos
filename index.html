@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es-CR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matriz energética, movilidad y retos — Leonel Azofeifa Valverde</title>
+  <meta name="description" content="Artículo sobre matriz energética, movilidad y descarbonización en Costa Rica.">
+  <!-- Fonts: Aptos substitute and Google Sans Text -->
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Aptos Display is not publicly hosted; we’ll use a high-quality geometric sans substitute (Inter) for headings -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    /* Page container and base styling */
+    :root{
+      --text-color:#272727;
+      --accent:#0F4761;
+      --muted:#595959;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: var(--text-color);
+    }
+    body {
+      font-family: "Google Sans Text", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      font-size: 12pt;
+      line-height: 1.15;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Layout mimicking Word’s margins (left/right ~3.0 cm, top/bottom ~2.5 cm) but responsive */
+    .page {
+      max-width: 760px;
+      padding: 70px 3cm; /* top/bottom 70.85pt ≈ 2.5cm ; left/right 3cm */
+      margin: 0 auto;
+    }
+    @media (max-width: 900px) {
+      .page { padding: 40px 24px; }
+    }
+
+    /* Title and headings preserving sizes and color */
+    h1 {
+      margin: 18pt 0 4pt 0;
+      font-family: "Inter", "Google Sans Text", system-ui, sans-serif;
+      font-size: 20pt;
+      font-weight: 400;
+      color: var(--accent);
+      letter-spacing: -0.25px;
+    }
+    .doc-title {
+      margin: 0 0 4pt 0;
+      font-family: "Inter", "Google Sans Text", system-ui, sans-serif;
+      font-size: 28pt;
+      font-weight: 400;
+      letter-spacing: -0.5pt;
+      color: var(--text-color);
+    }
+    h2 {
+      margin: 8pt 0 4pt 0;
+      font-family: "Inter", "Google Sans Text", system-ui, sans-serif;
+      font-size: 16pt;
+      font-weight: 400;
+      color: var(--accent);
+    }
+    h3 {
+      margin: 8pt 0 4pt 0;
+      font-size: 14pt;
+      font-weight: 400;
+      color: var(--accent);
+    }
+    h4 {
+      margin: 4pt 0 2pt 0;
+      font-size: 11pt;
+      font-style: italic;
+      font-weight: 400;
+      color: var(--accent);
+    }
+
+    /* Subtitle, author line */
+    .subtitle {
+      margin: 0 0 8pt 0;
+      font-size: 14pt;
+      letter-spacing: 0.75pt;
+      color: var(--muted);
+    }
+    .author {
+      font-style: italic;
+      color: var(--text-color);
+    }
+
+    /* Paragraphs: justified, spacing similar to original */
+    p {
+      margin: 0;
+      text-align: justify;
+    }
+    .spacer { margin: 10pt 0; }
+
+    /* Emphasis (bold/italic) */
+    b { font-weight: 700; }
+    i { font-style: italic; }
+
+    /* Optional quote styles from the original theme (unused in this article but retained) */
+    .quote {
+      margin: 8pt 0;
+      text-align: center;
+      color: #404040;
+      font-style: italic;
+    }
+    .quote-strong {
+      margin: 18pt 30pt;
+      padding: 10pt 0;
+      text-align: center;
+      color: var(--accent);
+      border-top: 0.5pt solid var(--accent);
+      border-bottom: 0.5pt solid var(--accent);
+      font-style: italic;
+    }
+
+    /* Small tweaks for numbers and punctuation spacing */
+    .nb { white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <main class="page" role="main">
+    <p class="spacer">&nbsp;</p>
+
+    <h1 class="doc-title">Matriz energética, movilidad y retos</h1>
+    <p class="author">Por Leonel Azofeifa Valverde<br>
+    Estudiante de Ciencias Políticas de la Universidad de Costa Rica</p>
+
+    <p class="spacer">&nbsp;</p>
+
+    <p>
+      La imagen de Costa Rica como país “verde”, sustentada en una matriz eléctrica casi 100% renovable, enfrenta vulnerabilidades. Según la División Operación y Control del Sistema Eléctrico (DOCSE, 2024), la producción con fuentes renovables cayó al 89,4%, obligando al uso intensivo de combustibles fósiles. La dependencia de la hidroelectricidad, amenazada por la variabilidad climática, evidencia una debilidad estructural. De cara a las elecciones de 2026, en este contexto, se debería impulsar un debate serio sobre energía y movilidad, donde el cambio climático y la descarbonización deben ocupar un papel importante.
+    </p>
+
+    <p class="spacer">&nbsp;</p>
+
+    <h2>El dilema hidroeléctrico</h2>
+    <p>
+      La red de represas ha sido la columna vertebral del sistema, representando el <b>74,18%</b> de la energía generada (DOCSE, agosto 2025). Sin embargo, el fenómeno de El Niño en 2024 redujo los caudales, provocando un aumento del <b>118,9%</b> en la <b>generación eléctrica a base de combustibles</b>. El costo de los combustibles se transfiere a los consumidores mediante el Costo Variable de Generación (CVG), que convierte un riesgo climático en un costo tangible.
+    </p>
+
+    <p>
+      La energía geotérmica y solar son clave para aumentar la matriz eléctrica. El ICE estima en su <i>Estudio Potencial Geotérmico 2022</i> que existen 614 MWe de reservas aprovechables fuera de parques nacionales, mas la capacidad instalada actual del país es de apenas <b>262 MW (7,25%)</b>. La falta de impulso político ha frenado su expansión. En cuanto a la energía solar, pese a la abundante radiación en el país, solo aportó el <b>0,2%</b> de la generación en 2024; la Ley N.º 10086 buscó promoverla, pero los procesos regulatorios de ARESEP han creado incertidumbre e inhibido la inversión.
+    </p>
+
+    <p class="spacer">&nbsp;</p>
+
+    <h2>Auge de la movilidad eléctrica</h2>
+    <p>
+      El parque vehicular eléctrico creció un <b>1797%</b> en ocho años, de 1.661 unidades en 2018 a 31.507 en septiembre de 2025 (MINAE). Este logro, sin embargo, se sostiene en incentivos fiscales que empiezan a reducirse; asimismo, Mideplan advierte que la <b>red eléctrica nacional y la infraestructura de carga son limitaciones</b>, por su lento desarrollo, lo que amenaza la sostenibilidad del progreso alcanzado. Por otra parte, en cuanto al <b>tren urbano</b>, este divide opiniones. La propuesta del PAC buscaba una red integral para la Gran Área Metropolitana, mientras que la versión del actual gobierno, más reducida y fiscalmente conservadora, <b>podría ser insuficiente para transformar los patrones de movilidad</b>. La discusión debe ir más allá del costo: nos debemos preguntar <b>¿qué tren necesita realmente el país?</b>
+    </p>
+
+    <p class="spacer">&nbsp;</p>
+
+    <h2>Un camino coherente hacia la descarbonización</h2>
+    <p>
+      Costa Rica tiene metas correctas, pero carece de <b>consistencia política</b>. La próxima administración deberá asumir la diversificación de la matriz energética aprovechando el potencial geotérmico y solar, definir una visión vinculante para la movilidad sostenible urbana, restaurar la coherencia estratégica en infraestructura ferroviaria y consolidar la electromovilidad mediante una red eléctrica estable, acompañada de una planificación nacional que garantice resiliencia climática, sostenibilidad financiera y una ejecución técnica coherente con los objetivos del <b>Plan Nacional de Descarbonización para el 2050</b>.
+    </p>
+
+    <p class="spacer">&nbsp;</p>
+  </main>
+</body>
+</html>
